@@ -85,9 +85,6 @@ To run this web application locally, follow these steps:
 
 8. Access the application in your web browser at `http://localhost:3000`.
 
-## Deployment
-
-To deploy this web application to a production environment, you will need to configure a production-ready database, set appropriate environment variables, and choose a hosting platform for both the backend and frontend.
 
 ## Conclusion
 
