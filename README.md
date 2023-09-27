@@ -121,14 +121,13 @@ To set up your application:
 3. The app will be initialized, and all basic dependencies will be installed. You need to pass a few details if you wish; otherwise, there is no need to do so. The command prompt will look like the following:
 
 
-package name: (node-api) version: (1.0.0) description: A simple login API for SignUp and SignIn entry point: (index.js) test command: git repository: keywords: author: license: (ISC)
-
-
 4. Now install some dependencies that will be required in developing our APIs like express, mongoose, cookie-parser, bcrypt, dotenv. In the terminal, write:
 
+```
 
 npm install express mongoose cookie-parser bcrypt dotenv
 
+```
 
 Use of each module:
 - express: Allows you to define routes of your application based on HTTP methods and URLs.
