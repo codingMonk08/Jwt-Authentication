@@ -1,6 +1,7 @@
-# Jwt-Authentication
+# Jwt-Authentication and Authorization
 
-# Web Application Readme
+
+# Full Stack simple login API for SignUp and SignIn
 
 This is a readme file for a web application that provides user authentication features using various technologies for both the backend and frontend. The application allows users to sign up, log in, and log out using their email and password. Below, you will find an overview of the technologies used and the key features of this web application.
 
@@ -84,6 +85,57 @@ To run this web application locally, follow these steps:
    ```
 
 8. Access the application in your web browser at `http://localhost:3000`.
+
+Sure! Here’s a sample README file for your project:
+
+
+## Description
+This project is a simple login API for SignUp and SignIn.
+
+## Topics
+- Setup node.js server
+- Connect the application to the MongoDB
+- Create user schema
+- JWT (route level Middleware)
+- Create Controller
+- Create Routes
+
+## Requirements
+The following are some requirements for developing these APIs:
+- Node.js should be installed on your system.
+- MongoDB should be installed as we are using MongoDB as our database.
+
+## Node.js
+Node.js is a platform built for easily building fast and scalable network applications. It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.
+
+## Express
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. It facilitates the rapid development of Node-based Web applications.
+
+## MongoDB
+MongoDB is a cross-platform, document-oriented database that provides high performance, high availability, and easy scalability. MongoDB works on the concept of collection and documentation.
+
+## Set Up
+To set up your application:
+1. Open any of your editors like Visual Studio Code, Sublime Text, or any other.
+2. In the terminal, write `npm init`.
+3. The app will be initialized, and all basic dependencies will be installed. You need to pass a few details if you wish; otherwise, there is no need to do so. The command prompt will look like the following:
+
+
+package name: (node-api) version: (1.0.0) description: A simple login API for SignUp and SignIn entry point: (index.js) test command: git repository: keywords: author: license: (ISC)
+
+
+4. Now install some dependencies that will be required in developing our APIs like express, mongoose, cookie-parser, bcrypt, dotenv. In the terminal, write:
+
+
+npm install express mongoose cookie-parser bcrypt dotenv
+
+
+Use of each module:
+- express: Allows you to define routes of your application based on HTTP methods and URLs.
+- cookie-parser: It is used for parsing the cookie.
+- bcrypt: It is used for hashing and comparing the password.
+  
+
 
 
 ## Conclusion
